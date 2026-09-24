@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="55" viewBox="0 0 650 55">
+  <style>
+    text {
+      font-family: 'Fira Code', 'SF Mono', Consolas, 'Courier New', monospace;
+      font-size: 26px;
+      font-weight: 600;
+      fill: #70A4FC;
+    }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .p1 { animation: ph1 12s infinite; }
+    .p2 { animation: ph2 12s infinite; }
+    .p3 { animation: ph3 12s infinite; }
+    .p4 { animation: ph4 12s infinite; }
+    @keyframes ph1 { 0%,3% {opacity:0} 5%,22% {opacity:1} 25%,100% {opacity:0} }
+    @keyframes ph2 { 0%,28% {opacity:0} 30%,47% {opacity:1} 50%,100% {opacity:0} }
+    @keyframes ph3 { 0%,53% {opacity:0} 55%,72% {opacity:1} 75%,100% {opacity:0} }
+    @keyframes ph4 { 0%,78% {opacity:0} 80%,97% {opacity:1} 100% {opacity:0} }
+  </style>
+  <text class="p1" x="325" y="38" text-anchor="middle">Hi, I'm ZhiYa 👋<tspan class="cursor">▌</tspan></text>
+  <text class="p2" x="325" y="38" text-anchor="middle">Software Architect<tspan class="cursor">▌</tspan></text>
+  <text class="p3" x="325" y="38" text-anchor="middle">AI Systems Engineer<tspan class="cursor">▌</tspan></text>
+  <text class="p4" x="325" y="38" text-anchor="middle">JVM / Distributed Systems<tspan class="cursor">▌</tspan></text>
+</svg>
